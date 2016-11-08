@@ -4,6 +4,8 @@ body {
   background:url("../assets/graz-nov16-mask.jpg") center center;
   background-repeat:no-repeat;
 
+  font-family: "PT Sans", sans-serif, 'DejaVu';
+
   text-align:center;
   text-shadow: 0px 0px 3px white,
                 0px 0px 4px white,
@@ -26,6 +28,12 @@ h1 {
   margin-bottom:50px;
 }
 
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
 
 
 p {
@@ -113,12 +121,8 @@ div.tableholder {
 }
 
 #mapswitcher a {
-    text-decoration:none;
     display:block;
     padding:5px 10px;
-}
-#mapswitcher a:hover {
-    text-decoration:underline;
 }
 #mapswitcher span {
     text-decoration:underline;
