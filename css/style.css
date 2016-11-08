@@ -1,0 +1,127 @@
+/* common stylesheet for different routing profiles */
+
+body {
+  background:url("../assets/graz-nov16-mask.jpg") center center;
+  background-repeat:no-repeat;
+
+  text-align:center;
+  text-shadow: 0px 0px 3px white,
+                0px 0px 4px white,
+                0px 0px 5px white,
+                0px 0px 6px white,
+                0px 0px 7px white,
+                0px 0px 8px white,
+                0px 0px 9px white,
+                0px 0px 10px white,
+               1px 1px 0 white,
+               -1px 1px 0 white,
+               1px -1px 0 white,
+               -1px -1px 0 white;
+}
+
+h1 img {
+  margin:0 30px -30px 30px;
+}
+h1 {
+  margin-bottom:50px;
+}
+
+
+
+p {
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#links {
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index:100;
+    padding:5px;
+    border:1px solid gray;
+    border-radius:5px;
+    font:15px/20px "Open Sans",sans-serif;
+}
+#header {
+    text-align:center;
+}
+#links {
+    position:absolute;
+    bottom:10px;
+    right:320px;
+}
+#links li {
+    margin-left:40px;
+    margin-top:7px;
+}
+    
+div.tableholder {
+  width:100%;
+  text-align:center;
+}
+
+#mapswitcher {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  border-spacing:0;
+  border:0;
+  padding:1px;
+}
+
+#mapswitcher thead th {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top:1px solid gray;
+}
+#mapswitcher tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+#mapswitcher tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+#mapswitcher td,
+#mapswitcher th {
+  background:rgba(255, 255, 255, 0.5);
+  padding:5px;
+  margin:0;
+}
+#mapswitcher td:last-child,
+#mapswitcher th:last-child {
+  border-right:1px solid gray;
+}
+#mapswitcher th {
+  padding:10px;
+}
+
+#mapswitcher tr:last-child td,
+#mapswitcher tr:first-child td,
+#mapswitcher tr:first-child th {
+  border-bottom:1px solid gray;
+}
+
+#mapswitcher td,
+#mapswitcher th{
+  border-left:1px solid gray;
+}
+
+#mapswitcher .overline td,
+#mapswitcher .overline th {
+  border-top:1px solid gray;
+}
+
+#mapswitcher a {
+    text-decoration:none;
+    display:block;
+    padding:5px 10px;
+}
+#mapswitcher a:hover {
+    text-decoration:underline;
+}
+#mapswitcher span {
+    text-decoration:underline;
+    color:black;
+    font-weight:bold;
+    margin:10px;
+}
